@@ -1,0 +1,128 @@
+.pricing {
+    width: 30;
+    border-radius: 25px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0, 0.2);
+    overflow: hidden;
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: green;
+    margin: 15px;
+}
+
+.highlight {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0, 0.4);
+    transform: scale(1.05);
+}
+
+.special-text {
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    background: blue;
+    box-shadow: 0 0 10 rgba(0, 0, 0, 0, 0.2) inset;
+}
+
+.myplan {
+    padding: 25px;
+    background: #6fc9e4;
+    color: black;
+}
+
+.title .mysummary {
+    margin: 0px;
+    text-align: center;
+}
+
+.title {
+    font-size: 1em;
+    font-weight: 400;
+}
+
+.mysummary {
+    font-size: 1em;
+    font-weight: 300;
+}
+
+.descripture {
+    padding: 25px;
+}
+
+.list {
+    padding: 0;
+    margin: 0;
+}
+
+.feature {
+    list-style: none;
+    margin: 0;
+    padding-left: 25px;
+    position: relative;
+    font-size: 0.9em;
+}
+
+.feature:not(:last-child) {
+    margin-bottom: 0.5em;
+}
+
+.feature::before {
+    content: "\2714";
+    color: blue;
+    position: absolute;
+    left: 0;
+}
+
+.action {
+    padding: 25;
+    border-top: 1px solid #eeee;
+    display: flex;
+    flex-direction: column;
+}
+
+.button {
+    display: inline-block;
+    margin: 15px auto;
+    padding: 8px 20px;
+    text-decoration: none;
+    color: #5ee8fa;
+    background: #ffffff;
+    border-radius: 5px;
+    border: 1px solid #5ee8fa;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+    font-weight: bold;
+}
+
+.button:hover {
+    background: #5ee8fa;
+    color: #ffffff;
+}
+
+.cost {
+    margin: 0;
+    text-align: center;
+    font-size: 2em;
+    color: #000000;
+}
+
+.text {
+    font-size: 0.9em;
+    text-align: center;
+    margin: 0 0 10px 0;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.list {
+    background-color: burlywood;
+}
+
+ul {
+    background-color: burlywood;
+}
